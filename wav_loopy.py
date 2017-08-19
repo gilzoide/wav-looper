@@ -16,7 +16,7 @@
 # along with Wav-loopy.  If not, see <http://www.gnu.org/licenses/>.
 
 """
-Wav-loopy, a simple WAV audio file looper: read file -> write file looped X times
+Wav-loopy is a simple WAV audio file looper: read file -> write file looped by X.
 
 The following formats are allowed for X (using input sample size as basis for time):
   Number "1.2": output size is X * input size
