@@ -1,13 +1,11 @@
 from setuptools import setup
 from codecs import open
 
-from wav_loopy import __version__ as version
-
 with open('README.rst', encoding='utf-8') as readme:
     long_description = readme.read()
 
 setup(name='wav-loopy',
-      version=version,
+      version='0.1.0',
       description="A simple WAV audio file looper: read file -> write file looped by X",
       long_description=long_description,
 
